@@ -12,7 +12,7 @@
  </header>
  <div class="fullPage">
   <div class="inputForm">
-  	<form id="toDoItem">
+  	<form id="toDoItem" onsubmit="return false">
   		<input type="text" name ="item" class = "toDoInputForm" id="listItem" placeholder="10 Push-ups in the Lobby">
   		<button type="button" value="Submit" id="addItem">Add To Do</button>
   	</form>
@@ -21,7 +21,6 @@
   <div id = "removeButton">
   	<button type="button" id="removeItems" value ="Remove Completed Items"/>Remove From To Do</button>
   </div>
-
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
  <script type="text/javascript" src="js/app.js"></script>
 </div>

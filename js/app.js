@@ -1,3 +1,4 @@
+
 // To Add an Item to the list
 $("#addItem").click(function () {           
   // Retrieve value of list item
@@ -10,7 +11,6 @@ $("#addItem").click(function () {
   $('#toDoItem')[0].reset();
 
 }); 
-
 
 
 // To Remove an Item from the List
