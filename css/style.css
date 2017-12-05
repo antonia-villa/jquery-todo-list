@@ -109,6 +109,7 @@ button  {
     float: right;
     margin-top: 10px;
     font-size: 22px;
+    margin-right: 50px;
 
 }
 
@@ -117,27 +118,7 @@ button  {
     padding-left: ;
 }
 
-#removethoseItems {
-    width: 50%;
+#removeButton {
     margin: 0 auto;
-}
-
-/*Sortable List */
-body.dragging, body.dragging * {
-  cursor: move !important;
-}
-
-.dragged {
-  position: absolute;
-  opacity: 0.5;
-  z-index: 2000;
-}
-
-ul.listItems li.placeholder {
-  position: relative;
-  /** More li styles **/
-}
-ul.listItems li.placeholder:before {
-  position: absolute;
-  /** Define arrowhead **/
+    margin-left: 10px;
 }
