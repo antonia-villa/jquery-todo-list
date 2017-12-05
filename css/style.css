@@ -1,0 +1,73 @@
+body, p, h2, h1 {
+  margin: 0;
+  color: #333;
+  height: 100%;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+  font-size: 150%;
+  line-height: 1.2;
+  background-image: -webkit-linear-gradient(rgba(0,0,0,.1) 1px, transparent 1px);
+  background-image: -moz-linear-gradient(rgba(0,0,0,.1) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(0,0,0,.1) 1px, transparent 1px);
+  background-size: 100% 1.2em; /* match the line-height */
+  background-position: 0 1em;
+  background-origin: content-box;
+  padding: 1em auto;
+
+}
+
+header {
+  background: #fff;
+  border-bottom: solid 1px rgba(0,0,0,.1);
+  padding-left: 2.5em;
+}
+
+h1 {
+  padding-left: 1.2rem;
+  padding-top: 1.1em;
+  border-left: 2px solid pink;
+}
+
+
+li {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 22px;
+}
+
+#listItems {
+    display: inline-block;
+}
+
+.fullPage {
+  height: 100vh;
+  margin: 0 1em 0 2.5em;
+  border-left: 2px solid pink;
+}
+
+.eachItem {
+    width: 100%;
+}
+
+.inputForm {
+    margin-left: 10px;
+}
+
+.toDoInputForm {
+    width: 200px;
+    height: 18px;
+}
+
+
+.checkedListItem {
+    text-align: right;
+}
+
+p {
+  padding: 0 0 1.8rem 1rem;
+}
+h2 {
+  padding: 1.2rem 0 1.2rem 1rem;
+}

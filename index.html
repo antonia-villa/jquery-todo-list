@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>To-Do List</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+<header>
+  <h1>To Do:</h1>
+ </header>
+ <div class="fullPage">
+  <div class="inputForm">
+  	<form id="toDoItem">
+  		<input type="text" name ="item" class = "toDoInputForm" id="listItem" placeholder="Buy Dat Peanut Butta">
+  		<button type="button" value="Submit" id="addItem">Add the Item</button>
+  	</form>
+  </div>
+  <ul id="listItems"></ul>
+  <div id = "removethoseItems">
+  	<input type="button" id="removeItems" value ="Remove Completed Items"/> 
+  </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+ <script type="text/javascript" src="js/app.js"></script>
+</div>
+ </div>
 </body>
 </html>
