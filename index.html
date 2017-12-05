@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>To-Do List</title>
+  <title>To Do List</title>
 </head>
 <body>
 <header>
@@ -13,13 +13,13 @@
  <div class="fullPage">
   <div class="inputForm">
   	<form id="toDoItem">
-  		<input type="text" name ="item" class = "toDoInputForm" id="listItem" placeholder="Buy Dat Peanut Butta">
-  		<button type="button" value="Submit" id="addItem">Add the Item</button>
+  		<input type="text" name ="item" class = "toDoInputForm" id="listItem" placeholder="10 Push-ups in the Lobby">
+  		<button type="button" value="Submit" id="addItem">Add To Do</button>
   	</form>
   </div>
-  <ul id="listItems"></ul>
+  <ul id="listItems" class ="sortableLists"></ul>
   <div id = "removethoseItems">
-  	<input type="button" id="removeItems" value ="Remove Completed Items"/> 
+  	<button type="button" id="removeItems" value ="Remove Completed Items"/>Remove To Do</button>
   </div>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
